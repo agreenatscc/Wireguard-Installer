@@ -133,11 +133,11 @@ read -rp "Server's WireGuard port: " -e -i "$SERVER_PORT" SERVER_PORT
 
 # Install WireGuard tools and module
 if [[ $OS == 'ubuntu' ]]; then
-	apt-get install -y software-properties-common
-	add-apt-repository -y ppa:wireguard/wireguard
-	apt-get update
-	apt-get install -y "linux-headers-$(uname -r)"
-	apt-get install -y wireguard iptables resolvconf qrencode
+	sudo apt-get install -y software-properties-common
+	sudo add-apt-repository -y ppa:wireguard/wireguard
+	sudo apt-get update
+	sudo apt-get install -y "linux-headers-$(uname -r)"
+	sudo apt-get install -y wireguard iptables resolvconf qrencode
 elif [[ $OS == 'debian' ]]; then
 	echo "deb http://deb.debian.org/debian/ unstable main" >/etc/apt/sources.list.d/unstable.list
 	printf 'Package: *\nPin: release a=unstable\nPin-Priority: 90\n' >/etc/apt/preferences.d/limit-unstable
