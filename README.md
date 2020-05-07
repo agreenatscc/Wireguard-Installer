@@ -67,8 +67,10 @@ chmod +x wireguard-install.sh
     <p>To generate more client files, run the following:</p>
     <div class="highlight highlight-source-shell"><pre>./wireguard-install.sh add-client</pre></div>
 
-    <p>https://www.cyberciti.biz/faq/ubuntu-20-04-set-up-wireguard-vpn-server/</p>
+    
     
     <p>Make sure you choose different IPs for you clients.</p>
     <p>Contributions are welcome!</p>
 </article>
+
+https://www.cyberciti.biz/faq/ubuntu-20-04-set-up-wireguard-vpn-server/
