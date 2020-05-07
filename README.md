@@ -12,10 +12,10 @@
     </h1>
     <p>
         <strong>
-            This project is a bash script that aims to setup a{" "}
+            This project is a bash script that aims to setup a
             <a href="https://www.wireguard.com/" rel="nofollow">
                 WireGuard
-            </a>{" "}
+            </a>
             VPN on a Linux server, as easily as possible!
         </strong>
     </p>
