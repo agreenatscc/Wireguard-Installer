@@ -11,14 +11,24 @@
         WireGuard installer
     </h1>
     <p>
-        <strong>This project is a bash script that aims to setup a <a href="https://www.wireguard.com/" rel="nofollow">WireGuard</a> VPN on a Linux server, as easily as possible!</strong>
+        <strong>
+            This project is a bash script that aims to setup a{" "}
+            <a href="https://www.wireguard.com/" rel="nofollow">
+                WireGuard
+            </a>{" "}
+            VPN on a Linux server, as easily as possible!
+        </strong>
     </p>
     <p>
         WireGuard is a point-to-point VPN that can be used in different ways. Here, we mean a VPN as in: the client will forward all its traffic trough an encrypted tunnel to the server. The server will apply NAT to the client's traffic so
         it will appear as if the client is browsing the web with the server's IP.
     </p>
-    <p>The script supports both IPv4 and IPv6. Please check the <a href="https://github.com/angristan/wireguard-install/issues">issues</a> for ongoing development, bugs and planned features!</p>
-    <p>WireGuard does not fit your environment? Check out <a href="https://github.com/angristan/openvpn-install">openvpn-install</a>.</p>
+    <p>
+        The script supports both IPv4 and IPv6. Please check the <a href="https://github.com/angristan/wireguard-install/issues">issues</a> for ongoing development, bugs and planned features!
+    </p>
+    <p>
+        WireGuard does not fit your environment? Check out <a href="https://github.com/angristan/openvpn-install">openvpn-install</a>.
+    </p>
     <h2>
         <a id="user-content-requirements" class="anchor" aria-hidden="true" href="#requirements">
             <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
@@ -40,9 +50,24 @@
     </ul>
     <p>I recommend these cheap cloud providers for your VPN server:</p>
     <ul>
-        <li><a href="https://goo.gl/Xyd1Sc" rel="nofollow">Vultr</a>: Worldwide locations, IPv6 support, starting at $3.50/month</li>
-        <li><a href="https://goo.gl/76yqW5" rel="nofollow">PulseHeberg</a>: France, unlimited bandwidth, starting at €3/month</li>
-        <li><a href="https://goo.gl/qXrNLK" rel="nofollow">Digital Ocean</a>: Worldwide locations, IPv6 support, starting at $5/month</li>
+        <li>
+            <a href="https://goo.gl/Xyd1Sc" rel="nofollow">
+                Vultr
+            </a>
+            : Worldwide locations, IPv6 support, starting at $3.50/month
+        </li>
+        <li>
+            <a href="https://goo.gl/76yqW5" rel="nofollow">
+                PulseHeberg
+            </a>
+            : France, unlimited bandwidth, starting at €3/month
+        </li>
+        <li>
+            <a href="https://goo.gl/qXrNLK" rel="nofollow">
+                Digital Ocean
+            </a>
+            : Worldwide locations, IPv6 support, starting at $5/month
+        </li>
     </ul>
     <h2>
         <a id="user-content-usage" class="anchor" aria-hidden="true" href="#usage">
@@ -57,20 +82,17 @@
     </h2>
     <p>Download and execute the script. Answer the questions asked by the script and it will take care of the rest.</p>
     <div class="highlight highlight-source-shell">
-        <pre>
-curl -O https://raw.githubusercontent.com/agreenatscc/Wireguard-Installer/master/wireguard-install.sh
-chmod +x wireguard-install.sh
-./wireguard-install.sh
-        </pre>
+        <pre>curl -O https://raw.githubusercontent.com/agreenatscc/Wireguard-Installer/master/wireguard-install.sh chmod +x wireguard-install.sh ./wireguard-install.sh</pre>
     </div>
     <p>It will install WireGuard (kernel module and tools) on the server, configure it, create a systemd service and a client configuration file.</p>
     <p>To generate more client files, run the following:</p>
-    <div class="highlight highlight-source-shell"><pre>./wireguard-install.sh add-client</pre></div>
-
-    
-    
+    <div class="highlight highlight-source-shell">
+        <pre>./wireguard-install.sh add-client</pre>
+    </div>
     <p>Make sure you choose different IPs for you clients.</p>
     <p>Contributions are welcome!</p>
-</article>
+</article>;
+
+
 
 https://www.cyberciti.biz/faq/ubuntu-20-04-set-up-wireguard-vpn-server/
