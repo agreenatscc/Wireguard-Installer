@@ -204,7 +204,7 @@ net.ipv6.conf.all.forwarding = 1" >/etc/sysctl.d/wg.conf
 sysctl --system
 
 sudo systemctl enable "wg-quick@$SERVER_WG_NIC"
-
+sudo sudo systemctl enable wg-quick@wg0
 sudo systemctl start "wg-quick@$SERVER_WG_NIC"
 
 # Check if WireGuard is running
