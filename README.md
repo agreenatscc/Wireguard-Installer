@@ -91,7 +91,7 @@
     </div>
     <p>Make sure you choose different IPs for you clients.</p>
     <p>Contributions are welcome!</p>
-</article>;
+</article>
 
 
 
