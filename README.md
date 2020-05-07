@@ -26,7 +26,7 @@ Digital Ocean: Worldwide locations, IPv6 support, starting at $5/month
 Usage
 Download and execute the script. Answer the questions asked by the script and it will take care of the rest.
 
-curl -O https://raw.githubusercontent.com/agreenatscc/wireguard-install/master/wireguard-install.sh
+curl -O https://raw.githubusercontent.com/agreenatscc/Wireguard-Installer/master/wireguard-install.sh
 chmod +x wireguard-install.sh
 ./wireguard-install.sh
 It will install WireGuard (kernel module and tools) on the server, configure it, create a systemd service and a client configuration file.
